@@ -1,53 +1,52 @@
 # Smart Survey Analyzer 📊
-Python tabanlı, dinamik veri üretimi ve döngü mekanizmaları ile çalışan öğrenci memnuniyet analiz sistemi.
+A Python-based student satisfaction analysis system operating with dynamic data generation and loop mechanisms.
 
-## 📌 İçindekiler
-- [Proje Hakkında](#proje-hakkında)
-- [Özellikler](#özellikler)
-- [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Proje Yapısı](#proje-yapısı)
-- [İletişim](#iletişim)
+## 📌Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
 
-## 📖 Proje Hakkında
-Bu proje, üniversite bünyesindeki öğrenci memnuniyet anketlerini dijital ortamda simüle etmek ve analiz etmek amacıyla geliştirilmiştir. Özellikle belirsiz veri setleri üzerinde **döngülerin (for/while)** ve **kontrol mekanizmalarının (break/continue/pass)** veri analizi süreçlerindeki kritik rolünü uygulamalı olarak göstermektedir.
+## 📖 About the Project
+This project was developed to digitally simulate and analyze student satisfaction surveys within a university setting. It practically demonstrates the critical role of **loops (for/while)** and **control mechanisms (break/continue/pass)** in data analysis processes, especially on uncertain datasets.
 
-## ✨ Özellikler
-- ✔️ **Dinamik Veri Üretimi:** `random` modülü ile gerçekçi ve belirsiz anket sonuçları simülasyonu.
-- ✔️ **Gelişmiş Filtreleme:** Geçersiz verilerin (örn: 6 puanı) `continue` ile otomatik ayıklanması.
-- ✔️ **Erken Uyarı Sistemi:** Arka arkaya 3 adet düşük puan (1) tespit edildiğinde `break` ile sürecin durdurulması.
-- ✔️ **Kategorik Analiz:** Puanların "Memnun", "Kararsız" ve "Memnun Değil" olarak sınıflandırılması.
-- ✔️ **İstatistiksel Raporlama:** Ortalama, minimum ve maksimum değerlerin otomatik hesaplanması.
+## ✨ Features
+- ✔️ **Dynamic Data Generation:** Simulation of realistic and uncertain survey results using the `random` module.
+- ✔️ **Advanced Filtering:** Automatic extraction of invalid data (e.g., a score of 6) using `continue`.
+- ✔️ **Early Warning System:** Stopping the process with `break` when 3 consecutive low scores (1) are detected.
+- ✔️ **Categorical Analysis:** Classification of scores as "Satisfied," "Undecided," and "Dissatisfied."
+- ✔️ **Statistical Reporting:** Automatic calculation of average, minimum, and maximum values.
 
-## 🛠 Kullanılan Teknolojiler
-- **Dil:** Python 3.x
-- **Kütüphaneler:** `random` (Veri simülasyonu için)
-- **Metodoloji:** Temel Veri Analizi (Sum, Len, Round fonksiyonları)
+## 🛠 Technologies Used
+- **Language:** Python 3.x
+- **Libraries:** `random` (for data simulation)
+- **Methodology:** Basic Data Analysis (Sum, Len, Round functions)
 
-## ⚙️ Kurulum
+## ⚙️ Installation
 
-1. Repoyu klonlayın:
+1. Clone the repo:
 ```bash
-git clone [https://github.com/isilbilasa/smart-survey-analyzer.git](https://github.com/isilbilasa/smart-survey-analyzer.git)
+git clone [https://github.com/isilbilasa/Smart-Survey-Analyzer.git](https://github.com/isilbilasa/Smart-Survey-Analyzer.git)
 ```
-2.Proje dizinine gidin:
-```bash
-cd smart-survey-analyzer
-```
-## 🚀 Kullanım
-Uygulamayı başlatmak için terminale şu komutu yazın:
-```bash
-python analyzer.py
-```
-Not: Veri giriş aşamasında 0 tuşuna basarak süreci manuel olarak sonlandırabilir veya sistemin 3 adet düşük puan sonrası verdiği uyarıyı test edebilirsiniz.
+🚀 Usage
+The project is a Jupyter Notebook file. To see the code and outputs:
 
-## 📂 Proje Yapısı
+Open the Smart_Survey_Analyzer.ipynb file with VS Code or Jupyter Lab.
+
+Observe the analysis algorithm and loop structures by running all cells (Run All).
+
+Note: You can manually terminate the process by pressing 0 during the data entry stage or test the system's warning trigger after 3 consecutive low scores.
+
+
+## 📂Project Structure
 
 ```text
 .
-├── Smart_Survey_Analyzer.ipynb   # Ana analiz algoritması ve döngü yapıları (Notebook)
-└── README.md                     # Proje dokümantasyonu ve kullanım kılavuzu
-```
-## 📧 İletişim
+├── Smart_Survey_Analyzer.ipynb   # Main analysis algorithm and loop structures (Notebook)
+└── README.md                     # Project documentation and user guide
+
+## 📧 Contact
 **GitHub:** @isilbilasa
