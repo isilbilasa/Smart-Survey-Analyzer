@@ -46,12 +46,8 @@ Not: Veri giriş aşamasında 0 tuşuna basarak süreci manuel olarak sonlandır
 
 ```text
 .
-├── src/
-│   └── analyzer.py       # Ana analiz algoritması ve döngü yapıları
-├── docs/
-│   └── report.pdf        # Projenin akademik detaylarını içeren teknik rapor
-├── .gitignore            # Git tarafından takip edilmeyecek dosyalar
-└── README.md             # Proje dokümantasyonu ve kullanım kılavuzu
+├── Smart_Survey_Analyzer.ipynb   # Ana analiz algoritması ve döngü yapıları (Notebook)
+└── README.md                     # Proje dokümantasyonu ve kullanım kılavuzu
 ```
 ## 📧 İletişim
 **GitHub:** @isilbilasa
